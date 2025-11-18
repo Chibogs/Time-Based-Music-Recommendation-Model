@@ -62,6 +62,5 @@ pip install spotipy pandas scikit-learn numpy python-dotenv
 - Audio features error/empty:
 - This is due to Spotify disabling audio features in the Web API.
 
-## Expected output (with old ver Spotify Web API)
-
-<img width="466" height="741" alt="Image" src="https://github.com/user-attachments/assets/1d389699-83a8-4a5b-9c6e-11cc95f6fc98" />
+## Screenshot (old Spotify Web API)
+![App Screenshot](./Screenshot/Screenshot%202025-11-18%20082501.png)
