@@ -2,14 +2,10 @@
 
 A dynamic music recommendation system that suggests curated playlists based on the time of day and the user's listening habits using Spotify's Web API.
 
-**Important API Notice**
+**IMPORTANT API NOTICE**
 - As of now, Spotify's Web API has disabled access to audio features (e.g., danceability, energy, valence).
 - This project relies on those features for clustering and recommendations.
 - Running the notebook will likely fail (e.g., 403 errors), return empty audio features, or produce no recommendations.
-
-**What still works**
-- OAuth login to Spotify and retrieval of recent tracks metadata may still work.
-- The recommendation logic depends on audio features and will not function until Spotify re-enables them.
 
 ## Features
 - Authenticates with Spotify via OAuth.
@@ -65,3 +61,6 @@ pip install spotipy pandas scikit-learn numpy python-dotenv
 - No recent tracks: Play a few songs, then re-run.
 - Audio features error/empty:
 - This is due to Spotify disabling audio features in the Web API.
+
+## Screenshot (old Spotify Web API)
+![App Screenshot](./Screenshot/Screenshot%202025-11-18%20082501.png)
