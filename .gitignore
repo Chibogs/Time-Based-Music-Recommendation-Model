@@ -1,0 +1,36 @@
+# Secrets and auth caches
+.env
+.env.*
+*.secret
+*.key
+*.pem
+.cache
+.cache-*
+token.json
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyd
+*.so
+*.egg-info/
+.eggs/
+*.egg
+build/
+dist/
+.venv/
+venv/
+env/
+pip-wheel-metadata/
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb_convert
+*.nbconvert.ipynb
+
+# VS Code (optional: remove this if you want to share settings)
+.vscode/
+
+# OS cruft
+Thumbs.db
+Desktop.ini
