@@ -1,6 +1,6 @@
 # Time-Based Music Recommendation Model
 
-A dynamic music recommendation system that suggests curated playlists based on the time of day and the user's listening habits using Spotify's Web API.
+A dynamic music recommendation system that suggests curated playlists based on the time of day and the user's listening habits using K-means clustering and Spotify's Web API.
 
 **IMPORTANT API NOTICE**
 - As of now, Spotify's Web API has disabled access to audio features (e.g., danceability, energy, valence).
